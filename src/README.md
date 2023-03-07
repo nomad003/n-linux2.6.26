@@ -1,24 +1,28 @@
-1.  arch            6316
-         x86        514
-2.  include         6783
-         asm-x86    345
-3.  init            12
-4.  kernel          146
-5.  mm              58
-6.  lib             116
+arch            6316
+     x86        514
+include         6783
+     asm-x86    345
 
-7.  fs              1303
-8.  drivers         6315
-9.  net             993
-10. ipc             13
+init            12
 
+kernel          146
+mm              58
+fs              1303
+ipc             13
+usr             5
+security        81
 block           24
 crypto          69
+
+lib             116
+
+drivers         6315
+sound           792
+
+net             993
+
 samples         14
 scripts         126
-security        81
-sound           792
-usr             5
 virt            5
 
 Makefile
